@@ -1,5 +1,36 @@
+p#featured-property {
+  text-align: center;
+}
+
 body {
   width: 100%;
   height: 100%;
   margin: 0;
+  
+}
+a:link{
+  background-color:yellow;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+header, section#featured-property {
+  text-align: center;
+}
+
+.content {
+  margin: 1px auto 1px;
+  width: 800px;
+  text-align: center;
+}
+figcaption {
+  font-size: 15px
+}
+section#details {
+  background-color: red;
+  text-align: center;
+  column-count: 4;
+  column-gap: 110px;
+  float:left;
+
 }
